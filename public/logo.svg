@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 60 190 20">
+    <style>
+        .draw {
+            stroke-dasharray: 500;
+            stroke-dashoffset: 500;
+            animation: draw 30s forwards;
+        }
+        .pathStyle {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 1.0;
+        }
+        @keyframes draw {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+    <g>
+        <path class="draw pathStyle" d="M 27.42,61.67 H 10.87 v 16.76 h 16.55 v -8.24 h -8.1"/>
+        <path class="draw pathStyle" d="M 30.98,70.19 H 47.4 M 31.16,78.32 H 47.58 M 31.16,61.71 H 47.58"/>
+        <path class="draw pathStyle" d="M 50.36,78.74 V 61.92 L 67.11,78.66 V 61.35"/>
+        <g transform="translate(39.07,0.04)">
+            <path class="draw pathStyle" d="M 30.98,70.19 H 47.4 M 31.16,78.32 H 47.58 M 31.16,61.71 H 47.58"/>
+        </g>
+        <path class="draw pathStyle" d="M 90.17,78.6 V 61.73 h 16.44 l -8.34,8.34 8.14,8.67"/>
+        <path class="draw pathStyle" d="m 108.36,78.68 8.38,-16.71 8.3,16.68"/>
+        <path class="draw pathStyle" d="M 132.15,78.68 V 61.61 M 123.9,61.68 H 140.32"/>
+        <path class="draw pathStyle" d="M 141.84,78.74 V 61.41"/>
+        <path class="draw pathStyle" d="m 145.03,61.49 8.38,17.02 8.3,-17.04"/>
+        <path class="draw pathStyle" d="m 163.99,70.18 h 16.42 M 164.17,78.32 h 16.42 M 164.17,61.71 h 16.42"/>
+        <path class="draw pathStyle" d="M 190.88,78.68 V 61.61 M 182.63,61.68 H 199.04"/>
+    </g>
+</svg>
