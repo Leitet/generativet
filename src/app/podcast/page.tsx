@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/drawer"
 
  
-export function ModeToggle() {
+function ModeToggle() {
   const { setTheme } = useTheme()
  
   return (
@@ -55,7 +55,7 @@ export function ModeToggle() {
   )
 }
 
-export function ListenButton() {
+function ListenButton() {
   return (
     <Button>
       <AudioLines className="mr-2 h-4 w-4" /> Lyssna på Generativet!
@@ -88,7 +88,7 @@ export default function Podcast() {
         />
 
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-      Välkommen till "Generativet", podcasten där Anders, Fredrik och Johan med en icke specificerad regelbundenhet dyker ner i världen av generativ AI. I varje avsnitt spekulerar och diskuterar vi de senaste trenderna, teorierna och applikationerna av artificiell intelligens som kan generera allt från text och bilder till musik och mer. Vi utforskar de etiska dilemman, de tekniska underverken och de oväntade effekterna AI har på vårt samhälle. Oavsett om du är en AI-expert eller bara nyfiken på vad framtidens teknologi har att erbjuda, har "Generativet" något för dig. Lyssna på oss där poddar finns!
+      Välkommen till Generativet, podcasten där Anders, Fredrik och Johan med en icke specificerad regelbundenhet dyker ner i världen av generativ AI. I varje avsnitt spekulerar och diskuterar vi de senaste trenderna, teorierna och applikationerna av artificiell intelligens som kan generera allt från text och bilder till musik och mer. Vi utforskar de etiska dilemman, de tekniska underverken och de oväntade effekterna AI har på vårt samhälle. Oavsett om du är en AI-expert eller bara nyfiken på vad framtidens teknologi har att erbjuda, har Generativet något för dig. Lyssna på oss där poddar finns!
       </p>
 
      
@@ -101,7 +101,7 @@ export default function Podcast() {
               <DrawerDescription>Du kan givetvis lyssna på Generativet i din favoritpodspelare.</DrawerDescription>
             </DrawerHeader>
             <DrawerFooter>
-            <iframe src="https://open.spotify.com/embed/show/2Z8MqCcQnZbmZ3hnhUjNHj?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowtransparency = "true"></iframe>
+            <iframe src="https://open.spotify.com/embed/show/2Z8MqCcQnZbmZ3hnhUjNHj?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
               <DrawerClose>
                 <Button variant="outline">Stäng webbspelaren</Button>
