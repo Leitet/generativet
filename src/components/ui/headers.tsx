@@ -5,7 +5,7 @@ export function Header1({
     children: React.ReactNode;
   }>) {
     return (
-        <h1 className="scroll-m-20 text-4xl font-thin tracking-tight lg:text-5xl">
+        <h1 className="mt-6 scroll-m-20 text-4xl font-thin tracking-tight lg:text-5xl">
             {children}
         </h1>
     )

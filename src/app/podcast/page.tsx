@@ -41,13 +41,10 @@ export default function Podcast() {
           priority
         />
       
-        <p className="leading-9 [&:not(:first-child)]:mt-6">
+        <p className="mb-10 leading-9 [&:not(:first-child)]:mt-6">
         Välkommen till Generativet, podcasten där Anders, Fredrik och Johan med en icke specificerad regelbundenhet dyker ner i världen av generativ AI. I varje avsnitt spekulerar och diskuterar vi de senaste trenderna, teorierna och applikationerna av artificiell intelligens som kan generera allt från text och bilder till musik och mer. Vi utforskar de etiska dilemman, de tekniska underverken och de oväntade effekterna AI har på vårt samhälle. Oavsett om du är en AI-expert eller bara nyfiken på vad framtidens teknologi har att erbjuda, har Generativet något för dig. Lyssna på oss där poddar finns!
         </p>
       </div>
-
-     
-      {/*  Lyssna på Generativet! */}
       
       <Drawer>
           <DrawerTrigger asChild>

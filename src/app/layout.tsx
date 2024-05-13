@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Orbitron } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 
-const font = Montserrat({ subsets: ["latin"] });
+const font = Orbitron({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Generativet",
