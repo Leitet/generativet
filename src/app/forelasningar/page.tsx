@@ -24,7 +24,7 @@ export default function Forelasningar() {
         </p>
 
         <Header3>Anders Bjarby</Header3>
-        <p>Få kan mäta sig med Anders när det gäller att överraska, skrämma och fascinera inom AI! Han är känd som AI-promptens värsta fiende och har blivit kallad <Link href="https://medium.com/@levi.a.sweeney/im-not-the-first-ai-audio-dramatist-this-guy-is-52725c513971">"Den första AI-ljuddramaturgen"</Link>. Med sin klurighet och en räv bakom örat kommer Anders garanterat att hålla dig på tårna. Redan innan presentationen börjar kan du räkna med att bli överraskad.</p>
+        <p>Få kan mäta sig med Anders när det gäller att överraska, skrämma och fascinera inom AI! Han är känd som AI-promptens värsta fiende och har blivit kallad <Link href="https://medium.com/@levi.a.sweeney/im-not-the-first-ai-audio-dramatist-this-guy-is-52725c513971">&quot;Den första AI-ljuddramaturgen&quot;</Link>. Med sin klurighet och en räv bakom örat kommer Anders garanterat att hålla dig på tårna. Redan innan presentationen börjar kan du räkna med att bli överraskad.</p>
 
         <Header3>Fredrik Ahlgren</Header3>
         <p>Fredriks engagemang är smittsamt. Han brinner för AI och vill inget hellre än att du också ska göra det. Medan andra kopplar av med en öl framför fotbollen, gräver Fredrik ner sig i en ny lokal AI-modell. Han är en eftertraktad föreläsare inte bara inom AI, utan också inom IoT och energisektorn. Fredrik kommer att få dig att se på teknik på ett helt nytt sätt.</p>
@@ -37,8 +37,8 @@ export default function Forelasningar() {
         <p>Vi har haft äran att föreläsa för en mängd olika organisationer och institutioner. Våra föreläsningar har hållits på stora spelstudios, universitet, folkhögskolor, IT-konsultfirmor, mäklarbyråer, revisorskonsulter, kommuner och regioner. Dessutom har vi medverkat i flera poddar.</p>
 
         <blockquote className="pl-5 italic mt-3">
-          "WOW vilken föreläsning! Du gjorde ett kanonjobb som föreläsare, mycket intressant som skapade en hel del tankar och diskussioner efteråt. Sällan jag blir så tagen av en föreläsning.
-          En stor eloge till att lyckas fånga en grupp där många inte har ett stort teknikintresse men att på ett tydligt och bra sätt förmedla att detta är framtiden, vare sig vi vill eller inte. Det märks verkligen att du brinner för ämnet och jag är övertygad om att du gör STOR skillnad. Bra jobbat! Jag kommer att följa både podden och erat fortsatta arbete, stort!"
+           &quot;WOW vilken föreläsning! Du gjorde ett kanonjobb som föreläsare, mycket intressant som skapade en hel del tankar och diskussioner efteråt. Sällan jag blir så tagen av en föreläsning.
+          En stor eloge till att lyckas fånga en grupp där många inte har ett stort teknikintresse men att på ett tydligt och bra sätt förmedla att detta är framtiden, vare sig vi vill eller inte. Det märks verkligen att du brinner för ämnet och jag är övertygad om att du gör STOR skillnad. Bra jobbat! Jag kommer att följa både podden och erat fortsatta arbete, stort!&quot;
           <p className="text-right">/Maria</p>
         </blockquote>
 
