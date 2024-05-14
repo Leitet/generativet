@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Orbitron } from "next/font/google";
+import { Orbitron, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 
-const font = Orbitron({ subsets: ["latin"] });
-
+const font = Inter({ subsets: ["latin"] });
+//Orbitron
 export const metadata: Metadata = {
   title: "Generativet",
   description: "Generativets podcast, föreläsningar och workshops",

@@ -27,23 +27,31 @@ export default function Podcast() {
       
 
       <Header1>
-        Generativet Podcast
+        Podcast
       </Header1>
 
 
-      <div className="mb-32 grid font-thin items-center text-center justify-center text-2xl lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 lg:text-left">
+      <div className="mb-3 grid font-thin items-center text-center justify-center justify-items-center text-2xl lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 lg:text-left">
       <Image
-          className="relative dark:drop-shadow-[0_0_0.5rem_#ffffff70]"
+          className="dark:drop-shadow-[0_0_0.5rem_#ffffff70] mt-10 mb-5"
           src="/generativet-podcast.gif"
           alt="Generativet podcast"
           width={360}
           height={74}
           priority
         />
-      
-        <p className="mb-10 leading-9 [&:not(:first-child)]:mt-6">
-        Välkommen till Generativet, podcasten där Anders, Fredrik och Johan med en icke specificerad regelbundenhet dyker ner i världen av generativ AI. I varje avsnitt spekulerar och diskuterar vi de senaste trenderna, teorierna och applikationerna av artificiell intelligens som kan generera allt från text och bilder till musik och mer. Vi utforskar de etiska dilemman, de tekniska underverken och de oväntade effekterna AI har på vårt samhälle. Oavsett om du är en AI-expert eller bara nyfiken på vad framtidens teknologi har att erbjuda, har Generativet något för dig. Lyssna på oss där poddar finns!
+        <div className="mb-10 leading-9 [&:not(:first-child)]:mt-6">
+        <p >
+          Podcasten är hjärtat i Generativet. Detta är podcasten där Anders, Fredrik och Johan med en icke specificerad regelbundenhet dyker ner i världen av generativ AI. I varje avsnitt spekulerar och diskuterar vi kring de senaste trenderna, teorierna och applikationerna av artificiell intelligens. 
         </p>
+        <p className="mt-3">
+          Vi utforskar etiska dilemman, de tekniska underverken och de oväntade effekterna AI har på vårt samhälle. Oavsett om du är en AI-expert eller bara nyfiken på vad framtidens teknologi har att erbjuda, har Generativet något för dig. 
+        </p>
+        <p className="mt-3">  
+          Lyssna på oss där poddar finns!
+        </p>
+        </div>
+        
       </div>
       
       <Drawer>
