@@ -4,6 +4,8 @@ import BottonNav from "@/components/ui/bottom-nav";
 import { Header1, Header2, Header3 } from "@/components/ui/headers";
 import { ExternalLink } from "lucide-react";
 import Link from 'next/link';
+import Image from "next/image";
+
 
 export default function Forelasningar() {
   return (
@@ -22,6 +24,15 @@ export default function Forelasningar() {
         <p>
           Normalt sett föreläser vi individuellt, men vi är flexibla och öppna för olika typer av uppdrag. Behöver du en föreläsning på en timme eller en hel dags workshop för en mindre grupp? Inga problem, vi fixar det!
         </p>
+
+        <Image           
+          className="dark:drop-shadow-[0_0_0.5rem_#ffffff70] mt-10 mb-5"
+          src="/team.png"
+          alt="Tecknad representation av Fredrik, Johan och Anders"
+          width={1000}
+          height={400}
+          priority
+        ></Image>
 
         <Header3>Anders Bjarby</Header3>
         <p>Få kan mäta sig med Anders när det gäller att överraska, skrämma och fascinera inom AI! Han är känd som AI-promptens värsta fiende och har blivit kallad <Link href="https://medium.com/@levi.a.sweeney/im-not-the-first-ai-audio-dramatist-this-guy-is-52725c513971">&quot;Den första AI-ljuddramaturgen&quot;</Link>. Med sin klurighet och en räv bakom örat kommer Anders garanterat att hålla dig på tårna. Redan innan presentationen börjar kan du räkna med att bli överraskad.</p>

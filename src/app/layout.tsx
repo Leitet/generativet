@@ -8,6 +8,10 @@ const font = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Generativet",
   description: "Generativets podcast, föreläsningar och workshops",
+  openGraph: {
+    title: 'Generativet',
+    description: 'Podcast, föreläsningar och workshops.'
+  }
 };
 
 export default function RootLayout({
