@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description: "Generativets podcast, föreläsningar och workshops",
   openGraph: {
     title: 'Generativet',
-    description: 'Podcast, föreläsningar och workshops.'
+    description: 'Podcast, föreläsningar och workshops.',
+    images: '/og-image.png',
   }
 };
 
